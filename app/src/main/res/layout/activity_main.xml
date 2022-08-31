@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="false"
+    android:background="@android:drawable/star_big_on"
+    android:backgroundTint="@android:color/holo_red_dark"
+    android:soundEffectsEnabled="true"
+    android:touchscreenBlocksFocus="false"
+    android:transitionGroup="false"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/imageview"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text=" LUDO FUN"
+            android:textColor="#FFEB3B"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onPlayClick"
+            android:text="PLAY"
+            android:textColor="#FA1111" />
+
+    </LinearLayout>
+
+</RelativeLayout>
